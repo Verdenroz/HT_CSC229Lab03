@@ -25,7 +25,7 @@ public class CSC229Lab03_TimeComplexity {
                 continue;
             }
             int product = arr[iterate1] * arr[iterate2];    //n steps
-            if (product > largest)
+            if (product > largest)  // n steps
                 largest = product;
         }
         return largest;     // 1 step
